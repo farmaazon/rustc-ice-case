@@ -1,0 +1,15 @@
+[package]
+name = "case"
+version = "0.1.0"
+authors = ["Adam Obuchowicz <adam.obuchowicz@luna-lang.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+js-sys = { version = "0.3.28" }
+nalgebra = { version = "0.26.1" }
+
